@@ -1,0 +1,23 @@
+# Build output
+target/
+*.class
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+target/*.jar
+target/*.war
+
+# IDE
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
