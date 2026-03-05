@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: snyk-fixer-mcp
+  ai:
+    mcp:
+      server:
+        name: snyk-fixer-mcp
+        version: 1.0.0
+        type: SYNC
+        protocol: SSE
+
+server:
+  port: 8080
+
+# Snyk API configuration
+snyk:
+  api:
+    base-url: https://api.snyk.io
+    token: ${SNYK_API_TOKEN:}
+    org-id: ${SNYK_ORG_ID:}
+    rest-version: "2024-10-15"
+
+# GitHub API configuration (for PR creation)
+github:
+  api:
+    token: ${GITHUB_TOKEN:}

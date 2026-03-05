@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "github.api",
+      "type": "com.snykfixer.config.GitHubApiProperties",
+      "sourceType": "com.snykfixer.config.GitHubApiProperties"
+    },
+    {
+      "name": "snyk.api",
+      "type": "com.snykfixer.config.SnykApiProperties",
+      "sourceType": "com.snykfixer.config.SnykApiProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "github.api.token",
+      "type": "java.lang.String",
+      "sourceType": "com.snykfixer.config.GitHubApiProperties"
+    },
+    {
+      "name": "snyk.api.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.snykfixer.config.SnykApiProperties"
+    },
+    {
+      "name": "snyk.api.org-id",
+      "type": "java.lang.String",
+      "sourceType": "com.snykfixer.config.SnykApiProperties"
+    },
+    {
+      "name": "snyk.api.rest-version",
+      "type": "java.lang.String",
+      "sourceType": "com.snykfixer.config.SnykApiProperties"
+    },
+    {
+      "name": "snyk.api.token",
+      "type": "java.lang.String",
+      "sourceType": "com.snykfixer.config.SnykApiProperties"
+    }
+  ],
+  "hints": []
+}
